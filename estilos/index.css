@@ -124,6 +124,25 @@
         height: 100%;
         margin-bottom: 3%;
     }
-
-    
 /* fim da formatação da section depoimentos */
+
+
+
+/* início do footer */
+    .rodapé {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        font-family:"Carosello-Regular";
+    }
+
+    .logo-rodapé {
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+
+    .informações-rodapé {
+        color: white;
+        margin-bottom: 2%;
+    }
+/* fim do footer */
