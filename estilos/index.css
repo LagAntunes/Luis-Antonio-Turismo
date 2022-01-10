@@ -100,3 +100,26 @@
         font-weight: bold;
     }
 /* fim da formatação da section paralaxe */
+
+
+
+/* início da formatação da section depoimentos */
+    #depoimentos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-depoimento {
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    .carrossel {
+        width: 80%;
+        height: 100%;
+        margin-bottom: 15%;
+    }
+
+    
+/* fim da formatação da section depoimentos */
