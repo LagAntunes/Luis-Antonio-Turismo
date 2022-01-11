@@ -69,7 +69,7 @@
 
 
 
-/* início da formatação da section paralaxe */
+/* início da formatação da section paralaxe (página inicial) */
     .section-paralaxe {
         background-image: url("../imagens/fundo-paralaxe.jpg");
         background-attachment: fixed;
@@ -99,11 +99,11 @@
         font-size: 1.5em;
         font-weight: bold;
     }
-/* fim da formatação da section paralaxe */
+/* fim da formatação da section paralaxe (página inicial) */
 
 
 
-/* início da formatação da section depoimentos */
+/* início da formatação da section depoimentos (página inicial) */
     #depoimentos {
         display: flex;
         flex-direction: column;
@@ -124,7 +124,20 @@
         height: 100%;
         margin-bottom: 3%;
     }
-/* fim da formatação da section depoimentos */
+/* fim da formatação da section depoimentos (página inicial) */
+
+
+
+/* início da formatação da section de planos (página planos) */
+    .section-planos {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+/* fim da formatação da section de planos (página planos) */
+
 
 
 
