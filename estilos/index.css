@@ -145,6 +145,9 @@
     .texto-planos {
         margin-top: 5%;
         margin-bottom: 3%;
+        color: black;
+        font-weight: bolder;
+        text-shadow: 2px 1px white;
 
     }
 
@@ -187,16 +190,25 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        background-image: url("../imagens/italia.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     .section-contato h2 {
         margin-top: 5%;
         margin-bottom: 5%;
         width: 70%;
+        color: white;
+        font-weight: bolder;
+        text-shadow: 2px 1px black;
     }
 
     .div-formulario {
         border: 2px solid tomato;
+        background-color: white;
         border-radius: 15px;
         width: 75%;
         height: 100%;
