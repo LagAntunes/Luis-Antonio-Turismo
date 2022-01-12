@@ -183,7 +183,39 @@
 
 
 /* início da formatação da section de contatos (página contatos) */
-    
+    .section-contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-contato h2 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .div-formulario {
+        border: 1px solid red;
+        width: 70%;
+        height: 100%;
+        padding: 15px;
+        margin-bottom: 5%;
+    }
+
+    .div-formulario input {
+        margin-bottom: 3%;
+        margin-top: 0.5%;
+        width: 70%;
+        height: 100%;
+        padding: 5px;
+    }
+
+    .div-formulario textarea {
+        margin-bottom: 3%;
+        margin-top: 0.5%;
+        width: 60%;
+        height: 100%;
+        max-width: 70%;
+    }
 /* fim da formatação da section de contatos (página contatos) */
 
 
