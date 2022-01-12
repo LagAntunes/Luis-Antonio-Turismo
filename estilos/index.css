@@ -154,14 +154,28 @@
     }
 
     #conteudo-colunas {
-        border: 1px solid red;
+        border: 2px solid tomato;
+        border-radius: 15px;
         height: 100%;
-        background-color: aquamarine;
+        background-color: white;
+        padding:2%;
+    }
+
+    #conteudo-colunas h2 {
+        color: tomato;
+        font-family:"Carosello-Regular";
     }
 
     #conteudo-colunas img {
         width: 100%;
         height: 100%;
+        border-radius: 5px;
+    }
+
+    #conteudo-colunas p {
+        color: tomato;
+        font-size: large;
+        margin-top: 2%;
     }
 /* fim da formatação da section de planos (página planos) */
 
